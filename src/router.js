@@ -15,22 +15,20 @@ import Finish from './components/Finish/Finish';
 import NextBtn from './components/NextBtn/NextBtn';
 import { Switch, Route } from 'react-router-dom';
 
-
 export default (
-    <Switch>
-        <Route component={NextBtn} exact path='/'/>
-        <Route component={WizardOne} path='/wOne'/>
-        <Route component={WizardTwo} path='/wTwo'/>
-        <Route component={WizardThree} path='/wThree'/>
-        <Route component={WizardFour} path='/wFour'/>
-        <Route component={WizardFive} path='/wFive'/>
-        <Route component={WizardSix} path='/wSix'/>
-        <Route component={WizardSeven} path='/wSeven'/>
-        <Route component={WizardEight} path='/wEgith'/>
-        <Route component={WizardNine} path='/wNine'/>
-        <Route component={WizardTen} path='/wTen'/>
-        <Route component={WizardEleven} path='/wEleven'/>
-        <Route component={Finish} path='/finish'/>
-    </Switch>
-
-)
+  <Switch>
+    <Route component={NextBtn} exact path="/" />
+    <Route component={WizardOne} path="/wOne" />
+    <Route component={WizardTwo} path="/wTwo" />
+    <Route component={WizardThree} path="/wThree" />
+    <Route component={WizardFour} path="/wFour" />
+    <Route component={WizardFive} path="/wFive" />
+    <Route component={WizardSix} path="/wSix" />
+    <Route component={WizardSeven} path="/wSeven" />
+    <Route component={WizardEight} path="/wEight" />
+    <Route component={WizardNine} path="/wNine" />
+    <Route component={WizardTen} path="/wTen" />
+    <Route component={WizardEleven} path="/wEleven" />
+    <Route component={Finish} path="/finish" />
+  </Switch>
+);
